@@ -1,9 +1,9 @@
-#### js中的数据类型
+### js中的数据类型
 
     5种简单数据类型：Undefined、Null、Boolean、Number、String
     1种复杂数据类型：Object
 
-##### typeof操作符
+#### typeof操作符
     typeof('string') === 'string'
     typeof(1) === 'number'
     typeof(false) === 'boolean'
@@ -13,7 +13,7 @@
     typeof(() => {}) === 'function'
     typeof function(){} === 'function'
 
-##### Undefined类型
+#### Undefined类型
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只声明未初始化值的变量默认未undefined，对于尚未声明的变量只能执行typeof操作
 
